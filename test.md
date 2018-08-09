@@ -19,6 +19,7 @@
 | PIERCE    | BILLY       | 310239856 | 3176763990  |
 
 What would happen if the following statements were run?
+
   a.
 insert into EMPLOYEE_TBL('JACKSON', 'STEVE', '313546078', '3178523443');
   b.
