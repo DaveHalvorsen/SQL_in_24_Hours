@@ -22,9 +22,11 @@ What would happen if the following statements were run?
 
   a.
 insert into EMPLOYEE_TBL('JACKSON', 'STEVE', '313546078', '3178523443');
+
   b.
 insert into employee_tbl values
 ('JACKSON', 'STEVE', '313546078', '3178523443');
+
   c.
 
   d.
