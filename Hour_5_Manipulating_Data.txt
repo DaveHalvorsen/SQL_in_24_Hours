@@ -1,0 +1,54 @@
+# Hour 5: Manipulating Data
+
+## Quiz
+
+1. Use the EMPLOYEE_TBL with the following structure:
+
+| Column        |      data type  |  (not)null) |
+|----------     |-------------    |------       |
+| last_name     |  varchar2(20)   | not null    |
+| first_name    | varchar2(20)    | not null    |
+| ssn           | char(9)         | not null    |
+| phone         | number(10)      | null        |
+
+| LAST_NAME | FIRST_NAME  | SSN       | PHONE       |
+|-----------|-------------|-----------|-------------|
+| SMITH     | JOHN        | 312456788 | 3174549923  |
+| ROBERTS   | LISA        | 232118857 | 3175452321  |
+| SMITH     | SUE         | 443221989 | 3178398712  |
+| PIERCE    | BILLY       | 310239856 | 3176763990  |
+
+What would happen if the following statements were run?
+
+  a.
+insert into employee_tbl
+
+('JACKSON', 'STEVE', '313546078', '3178523443');
+
+  b.
+insert into employee_tbl values
+
+('JACKSON', 'STEVE', '313546078', '3178523443');
+
+  c.
+
+  d.
+
+  e.
+
+  f.
+
+  g.
+
+  h.
+
+  i.
+
+  j.
+
+  k.
+
+## Exercises
+1. Go to Appendix E, "INSERT Statements for Data in Book Examples." Invoke your
+RDMBS query editor as you have done in previous exercises.
+Now you need to insert the data into the tables that you created in Hour 3.
